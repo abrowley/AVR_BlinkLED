@@ -11,7 +11,7 @@
 #define LED_DDR  DDRB
 #define LED_PORT PORTB
 
-#define DELAYTIME 1000
+#define DELAYTIME 2000
 
 #define setBit(sfr, bit)     (_SFR_BYTE(sfr) |= (1 << bit))
 #define clearBit(sfr, bit)   (_SFR_BYTE(sfr) &= ~(1 << bit))
